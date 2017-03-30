@@ -1,0 +1,15 @@
+{
+  "name": "ccx",
+  "version": "1.0.0",
+  "description": "聊天室",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "chenchuanxun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>聊天室</title>
+</head>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="./style/index.css">
+<script src="//cdn.bootcss.com/socket.io/1.7.3/socket.io.min.js"></script>
+<body>
+	<div id="login-box" class="login-box">
+		<input id="userName" class="login-name" type="text" name="" placeholder="请输入用户名">
+		<div class="enter" id="enter" onclick='login()'>进入</div>
+	</div>
+	<div id="c-box" class="c-box">
+		<div>
+			<div id="content" class="chat-box"></div>
+			<input id="message" class="message" type="text" name="">
+			<div class="send" onclick="sendMsg()">发送</div>
+		</div>
+		<div class="out">退出</div>
+	</div>
+</body>
+<script type="text/javascript" src='./js/client.js'></script>
+</html>

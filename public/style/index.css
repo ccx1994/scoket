@@ -1,0 +1,162 @@
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+.login-box{
+	width: 250px;
+	height: 100px;
+	border:1px solid #000;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+}
+
+.login-name{
+	display: inline-block;
+	height: 20px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border:1px solid gray;
+}
+
+.enter{
+	height: 20px;
+	width: 50px;
+	border:1px solid blue;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.chat-box{
+	height: 400px;
+	width: 350px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin:auto;
+	top:20px;
+	border:1px solid gray;
+}
+
+.c-box{
+	display: none;
+}
+
+.message{
+	position: absolute;
+	left: 10px;
+	top:450px;
+	height: 30px;
+	border:1px solid gray;
+}
+
+.send{
+	position: absolute;
+	right: 90px;
+	top:450px;
+	width: 60px;
+	height: 30px;
+	border:1px solid gray;
+	text-align: center;
+	line-height: 30px;
+}
+
+.out{
+	position: absolute;
+	right: 10px;
+	top:450px;
+	width: 60px;
+	height: 30px;
+	border:1px solid gray;
+	text-align: center;
+	line-height: 30px;
+}
+
+.login-N {
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	clear:both;
+	padding:10px;
+}
+
+.chat-left {
+	max-width:200px;
+	float:left;
+	line-height: 30px;
+	background-color:#009BDB;
+	color:white;
+	border-radius:5px;
+	padding-left:7px;
+	padding-right:7px;
+	position:relative;
+	word-wrap: break-word;
+}
+
+.chat-left:before{
+	content:'';
+	width:0;
+	height:0;
+	border-top:5px solid transparent;
+	border-right:10px solid #009BDB;
+	border-bottom:5px solid transparent;
+	position:absolute;
+	left:-8px;
+	top:5px;
+}
+
+.chat-right {
+	max-width:200px;
+	float:right;
+	line-height: 30px;
+	background-color:#009BDB;
+	color:white;
+	border-radius:5px;
+	padding-left:7px;
+	padding-right:7px;
+	position:relative;
+}
+
+.chat-right:before{
+	content:'';
+	width:0;
+	height:0;
+	border-top:5px solid transparent;
+	border-left:10px solid #009BDB;
+	border-bottom:5px solid transparent;
+	position:absolute;
+	right:-8px;
+	top:5px;
+}
+
+.myName{
+	display:block;
+	float:right;
+	height: 30px;
+	line-height: 30px;	
+	color:black;
+	padding-left:10px;
+	padding-right:5px;
+}
+
+.otherName{
+	float:left;
+	display:block;
+	height: 30px;
+	line-height: 30px;	
+	color:black;
+	padding-left:10px;
+	padding-right:5px;
+}
+
+.line-box{
+	clear:both;
+	padding-top:10px;
+}
+
